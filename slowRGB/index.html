@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB GAME</title>
+    <link rel="icon" href="../COLORS.svg.png" />
+    <style>
+      .warning-box {
+        text-align: center;
+        font: 30px "Dank Mono";
+        color: #000000;
+        background-color: #ffffff;
+        margin: 20% 0% 0% 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="warning-box">
+      <h1 id="warning-text">
+        THIS IS HIGHLY COLOURFUL GAME!<br />
+        Do you want to proceed?<br />
+        <form action="../index1.html">
+          <input type="submit" id="yesBtn" value="YES" />
+          <input type="submit" id="yesBtn" value="NO" />
+        </form>
+      </h1>
+    </div>
+    <!-- <script>
+      // CAUTION
+      let yesBtn = document.querySelectorAll("#yesBtn");
+      let game = document.querySelector(".game");
+      let warningBox = document.querySelector(".warning-box");
+      let h1Element = document.createElement("h1");
+      h1Element.innerHTML = "SORRY! <br/>😞";
+      yesBtn[0].addEventListener("click", () => {
+        // game.classList.remove("game");
+        // warningBox.classList.add("game");
+        location = "../index1.html";
+      });
+      yesBtn[1].addEventListener("click", () => warningBox.append(h1Element));
+    </script> -->
+  </body>
+</html>
